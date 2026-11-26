@@ -113,14 +113,16 @@ Con **k = 4** los poco activos se dividen en **inactivos** y **compradores frecu
 ## 🚀 Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/esrakesken/unsupervised-ml.git
-cd unsupervised-ml
+git clone https://github.com/IA-P1-BCN/IA-Project-Unsupervised-ML-Esra.git
+cd IA-Project-Unsupervised-ML-Esra
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 Abre los notebooks en **VS Code** o **Jupyter**, selecciona el kernel de `.venv` y ejecuta **Restart & Run All**. Recomiendo empezar por la **Parte 1 (setas)**: la Parte 2 da por sabido lo aprendido allí.
+
+> 🔀 **Flujo de trabajo:** cada parte se desarrolló en su propia rama y se integró en `main` con un Pull Request (`parte1-setas`, `parte2-tarjetas`, `extra-parte1-setas`, `extra-parte2-tarjetas`, `docs-readme`). Las ramas están en este repositorio; los PRs (#1–#5) se pueden ver en mi repositorio personal: [esrakesken/unsupervised-ml](https://github.com/esrakesken/unsupervised-ml/pulls?q=is%3Apr).
 
 ---
 
